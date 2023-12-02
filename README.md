@@ -3,9 +3,3 @@ The 8-puzzle problem is a classic puzzle game in which a 3x3 grid contains eight
 
 ## How does it work?
 Each element/tile of the input board is compared to an element of the same board but with a goal/final state -which should be provided by the user. By the end of each comparison, a procedure runs to check if the current board is in a goal state, if yes, the puzzle is considered solved, if not, the comparison continues until the last tile is reached.
-
-## How to use it?
-1) The board should be of NxN dimensions. Input the integer N.
-2) Input the board's elements row by row.
-3) Input the board's elements, but this time in a goal state. 
-4) Wait for the algorithm to do its magic.
